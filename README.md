@@ -2,9 +2,9 @@
 eCommerce built with Next.js, Strapi, Magic and Stripe
 
 ## Updates
-* [12/14/2020 10:28pm](../blob/ecommerce#121420201028pm)
-* [12/14/2020 9:00pm](../blob/ecommerce#121420200900pm)
-* [12/14/2020 8:00pm](../blob/ecommerce#121420200800pm)
+* [12/14/2020 10:28pm](../blob/main/ecommerce#121420201028pm)
+* [12/14/2020 9:00pm](../blob/main/ecommerce#121420200900pm)
+* [12/14/2020 8:00pm](../blob/main/ecommerce#121420200800pm)
 
 ###### 121420201028pm
 Created Header Component
