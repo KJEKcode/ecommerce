@@ -2,9 +2,9 @@
 eCommerce built with Next.js, Strapi, Magic and Stripe
 
 ## Updates
-* [12/14/2020 10:28pm](ecommerce#121420201028pm)
-* [#12/14/20209:00pm]
-* [#12/14/20208:00pm]
+* [12/14/2020 10:28pm](../blob/ecommerce#121420201028pm)
+* [12/14/2020 9:00pm](../blob/ecommerce#121420200900pm)
+* [12/14/2020 8:00pm](../blob/ecommerce#121420200800pm)
 
 ###### 121420201028pm
 Created Header Component
@@ -18,14 +18,14 @@ Created
 * ecommerce-frontend/components/Footer.js
 * ecommerce-frontend/components/Header.js
 
-###### 12142020900pm
+###### 121420200900pm
 hooked front-end to back-end
 Edited
 * ecommerce-frontend/pages/product/slug.js
 * ecommerce-frontend/pages/index.js
 * ecommerce-frontend/utils/urls.js
 
-###### 12142020800pm
+###### 121420200800pm
 created ecommerce back-end using strapi
 * setup admin
 * setup sku
