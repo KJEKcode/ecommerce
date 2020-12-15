@@ -2,7 +2,7 @@
 eCommerce built with Next.js, Strapi, Magic and Stripe
 
 ## Updates
-* [#121420201028pm]
+* [12/14/2020 10:28pm](ecommerce#121420201028pm)
 * [#12/14/20209:00pm]
 * [#12/14/20208:00pm]
 
