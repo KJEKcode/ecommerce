@@ -3,14 +3,18 @@ eCommerce built with Next.js, Strapi, Magic and Stripe
 
 ###### 12-16-2020-0745pm
 Added user authentication
-Added user icon to header
+
+Added user icon to header 
+
 Created login and account pages
+
 Edited in ecommerce-frontend
 * components/Header.js
 * pages/app.js
 * styles/header.module.css
 * utils/urls.js
 * package.json
+
 Created
 * context/AuthContext
 * public/user-icon.png
@@ -19,11 +23,15 @@ Created
 
 ###### 12-14-2020-1028pm
 Created Header Component
+
 Created Footer Component
+
 Added Back Button to Header
+
 Edited
 * pages/_app.js
 * style/global.css
+
 Created 
 * ecommerce-frontend/components
 * ecommerce-frontend/components/Footer.js
@@ -31,6 +39,7 @@ Created
 
 ###### 12-14-20-200-0900pm
 hooked front-end to back-end
+
 Edited
 * ecommerce-frontend/pages/product/slug.js
 * ecommerce-frontend/pages/index.js
