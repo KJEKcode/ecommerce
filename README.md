@@ -1,6 +1,15 @@
 # ecommerce
 eCommerce built with Next.js, Strapi, Magic and Stripe
 
+###### 12-16-2020-0836pm
+Connected Magic and Strapi by installing strapi user permissions plugin and adding magic secret key in strapi dashboard
+
+Created
+* ecommerce-backend/extensions/user/permissions/policies/permissions.js
+
+Edited
+* ecommerce-frontend/context/AuthContext.js
+
 ###### 12-16-2020-0745pm
 Added user authentication
 
