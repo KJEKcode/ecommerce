@@ -1,6 +1,16 @@
 # ecommerce
 eCommerce built with Next.js, Strapi, Magic and Stripe
 
+###### 12-19-2020-0914pm
+Created orders functionality, added orders to strapi, created find and findOne endpoints, limited users to only seeing orders for their account
+
+Added
+* ecommerce-backend\api\order
+Edit
+* ecommerce-backend\api\order\controllers\order.js
+* ecommerce-frontend\context\AuthContext.js
+* ecommerce-frontend\pages\account.js
+
 ###### 12-16-2020-0836pm
 Connected Magic and Strapi by installing strapi user permissions plugin and adding magic secret key in strapi dashboard
 
