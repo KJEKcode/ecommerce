@@ -1,6 +1,21 @@
 # ecommerce
 eCommerce built with Next.js, Strapi, Magic and Stripe
 
+###### 12-21-2020-0226pm 
+modified order controller to create new orders and created a buy button with Stripe functionality 
+
+Added
+* ecommerce-frontend\components\BuyButton.js
+* ecommerce-frontend\styles\BuyButton.module.css
+
+Edit
+* ecommerce-backend\api\order\controllers\order.js
+* ecommerce-backend\.env.example
+* ecommerce-frontend\pages\products\[slug].js
+* ecommerce-frontend\utils\urls.js
+* ecommerce-frontend\package.json
+
+
 ###### 12-19-2020-0914pm
 Created orders functionality, added orders to strapi, created find and findOne endpoints, limited users to only seeing orders for their account
 
