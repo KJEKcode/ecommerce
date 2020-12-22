@@ -2,7 +2,12 @@
 Next.js | Strapi | Magic | Stripe | eCommerce
 
 ## Customers Can:
-* View a list of products
+* Select a login link if they are unverified
+* Select an account link if they are verified
+* Login by providing a email address
+  - login persist though reload
+* Verify email for account activation
+  - Magic Verification Link sent via email
 * Select products from the list
 * View Product Details
   - Name
@@ -10,8 +15,11 @@ Next.js | Strapi | Magic | Stripe | eCommerce
   - Description
   - Price
 * Purchase products
-* Login by providing a email address
-* Verify email for account activation
+  - Secure checkout using Stripe
+* View Account page
+  - Displays list of orders
+  - Displays current logged in user
+* Logout
 
 
 ###### 12-21-2020-0833pm
