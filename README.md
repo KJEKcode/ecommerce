@@ -1,6 +1,15 @@
 # ecommerce
 eCommerce built with Next.js, Strapi, Magic and Stripe
 
+###### 12-21-2020-0833pm
+created success page
+
+Added
+* ecommerce-frontend\pages\success.js
+edit
+* ecommerce-backend\api\order\config\routes.json
+* ecommerce-backend\api\order\controllers\order.js
+
 ###### 12-21-2020-0226pm 
 modified order controller to create new orders and created a buy button with Stripe functionality 
 
