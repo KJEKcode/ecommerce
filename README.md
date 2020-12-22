@@ -1,7 +1,20 @@
 # ecommerce
 Next.js | Strapi | Magic | Stripe | eCommerce
 
-## Customers Can:
+## Getting Started
+1. cd ecommerce-backend
+2. npm i
+3. npm run build
+4. npm run develop
+  - http://localhost:1337
+  - http://localhost:1337/admin
+5. New Terminal
+6. cd ecommerce-frontend
+7. npm i
+8. npm run dev
+  - http://localhost:3000
+
+### Customers Can:
 * Select a login link if they are unverified
 * Select an account link if they are verified
 * Login by providing a email address
