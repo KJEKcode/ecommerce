@@ -5,10 +5,10 @@ Next.js | Strapi | Magic | Stripe | eCommerce
 * View a list of products
 * Select products from the list
 * View Product Details
-- Name
-- Image
-- Description
-- Price
+  - Name
+  - Image
+  - Description
+  - Price
 * Purchase products
 * Login by providing a email address
 * Verify email for account activation
