@@ -4,15 +4,18 @@ Next.js | Strapi | Magic | Stripe | eCommerce
 ## Getting Started
 Starting the Backend
 1. cd ecommerce-backend
-2. npm i
-3. npm run build
-4. npm run develop
+2. touch .env
+3. add STRIPE_SK=YOUR KEY HERE to .env
+4. npm i
+5. npm run build
+6. npm run develop
   - http://localhost:1337
   - http://localhost:1337/admin
 
 Starting the Frontend
 
-5. New Terminal
+7. add magic public key to ecommerce-frontend\utils\urls.js
+8. add stripe public key to ecommerce-frontend\utils\urls.js
 6. cd ecommerce-frontend
 7. npm i
 8. npm run dev
