@@ -9,8 +9,9 @@ Starting the Backend
 4. npm run develop
   - http://localhost:1337
   - http://localhost:1337/admin
-  
+
 Starting the Frontend
+
 5. New Terminal
 6. cd ecommerce-frontend
 7. npm i
