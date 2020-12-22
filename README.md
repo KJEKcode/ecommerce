@@ -1,11 +1,25 @@
 # ecommerce
-eCommerce built with Next.js, Strapi, Magic and Stripe
+Next.js | Strapi | Magic | Stripe | eCommerce
+
+## Customers Can:
+* View a list of products
+* Select products from the list
+* View Product Details
+..* Name
+..* Image
+..* Description
+..* Price
+* Purchase products
+* Login by providing a email address
+* Verify email for account activation
+
 
 ###### 12-21-2020-0833pm
 created success page
 
 Added
 * ecommerce-frontend\pages\success.js
+
 edit
 * ecommerce-backend\api\order\config\routes.json
 * ecommerce-backend\api\order\controllers\order.js
