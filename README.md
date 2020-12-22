@@ -2,12 +2,15 @@
 Next.js | Strapi | Magic | Stripe | eCommerce
 
 ## Getting Started
+Starting the Backend
 1. cd ecommerce-backend
 2. npm i
 3. npm run build
 4. npm run develop
   - http://localhost:1337
   - http://localhost:1337/admin
+  
+Starting the Frontend
 5. New Terminal
 6. cd ecommerce-frontend
 7. npm i
