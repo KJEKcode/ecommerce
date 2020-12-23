@@ -51,6 +51,7 @@ Next.js | Strapi | Magic | Stripe | eCommerce
   - Displays current logged in user
 * Logout
 
+### Updates
 
 ###### 12-21-2020-0833pm
 created success page
