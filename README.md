@@ -1,5 +1,5 @@
 # ecommerce
-Next.js | Strapi | Magic | Stripe | eCommerce
+Next.js - Strapi - Magic - Stripe - eCommerce
 
 ## Getting Started
 **Starting the Backend**
