@@ -31,7 +31,7 @@ Next.js | Strapi | Magic | Stripe | eCommerce
 5. npm run dev
   - http://localhost:3000
 
-### Customers Can:
+## Customers Can:
 * Select a login link if they are unverified
 * Select an account link if they are verified
 * Login by providing a email address
@@ -51,7 +51,7 @@ Next.js | Strapi | Magic | Stripe | eCommerce
   - Displays current logged in user
 * Logout
 
-### Updates
+## Updates
 
 ###### 12-21-2020-0833pm
 created success page
