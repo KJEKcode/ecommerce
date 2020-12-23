@@ -1,6 +1,26 @@
 # ecommerce
 Next.js - Strapi - Magic - Stripe - eCommerce
 
+## Customers Can:
+* Select a login link if they are unverified
+* Select an account link if they are verified
+* Login by providing a email address
+  - login persist though reload
+* Verify email for account activation
+  - Magic Verification Link sent via email
+* Select products from the list
+* View Product Details
+  - Name
+  - Image
+  - Description
+  - Price
+* Purchase products
+  - Secure checkout using Stripe
+* View Account page
+  - Displays list of orders
+  - Displays current logged in user
+* Logout
+
 ## Getting Started
 **Starting the Backend**
 1. cd ecommerce-backend
@@ -30,26 +50,6 @@ Next.js - Strapi - Magic - Stripe - eCommerce
 4. npm i
 5. npm run dev
   - http://localhost:3000
-
-## Customers Can:
-* Select a login link if they are unverified
-* Select an account link if they are verified
-* Login by providing a email address
-  - login persist though reload
-* Verify email for account activation
-  - Magic Verification Link sent via email
-* Select products from the list
-* View Product Details
-  - Name
-  - Image
-  - Description
-  - Price
-* Purchase products
-  - Secure checkout using Stripe
-* View Account page
-  - Displays list of orders
-  - Displays current logged in user
-* Logout
 
 ## Updates
 
