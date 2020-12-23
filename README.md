@@ -2,23 +2,33 @@
 Next.js | Strapi | Magic | Stripe | eCommerce
 
 ## Getting Started
-Starting the Backend
+**Starting the Backend**
 1. cd ecommerce-backend
 2. touch .env
 3. add STRIPE_SK=YOUR KEY HERE to .env
 4. npm i
 5. npm run build
 6. npm run develop
-  - http://localhost:1337
   - http://localhost:1337/admin
+7. Setup admin account
+8. Settings -> Users & Permissions plugin -> Roles -> Authenticated -> Permissions -> order -> Check the following:
+  - create
+  - find
+  - findone
+9. Settings -> Users & Permissions plugin -> Roles -> Public -> Permissions -> check the following
+  - Order
+    - confirm
+  - product
+    - find
+    - findone
 
-Starting the Frontend
+**Starting the Frontend**
 
-7. add magic public key to ecommerce-frontend\utils\urls.js
-8. add stripe public key to ecommerce-frontend\utils\urls.js
-6. cd ecommerce-frontend
-7. npm i
-8. npm run dev
+1. add magic public key to ecommerce-frontend\utils\urls.js
+2. add stripe public key to ecommerce-frontend\utils\urls.js
+3. cd ecommerce-frontend
+4. npm i
+5. npm run dev
   - http://localhost:3000
 
 ### Customers Can:
@@ -45,21 +55,21 @@ Starting the Frontend
 ###### 12-21-2020-0833pm
 created success page
 
-Added
+**NEW**
 * ecommerce-frontend\pages\success.js
 
-edit
+**EDIT**
 * ecommerce-backend\api\order\config\routes.json
 * ecommerce-backend\api\order\controllers\order.js
 
 ###### 12-21-2020-0226pm 
 modified order controller to create new orders and created a buy button with Stripe functionality 
 
-Added
+**NEW**
 * ecommerce-frontend\components\BuyButton.js
 * ecommerce-frontend\styles\BuyButton.module.css
 
-Edit
+**EDIT**
 * ecommerce-backend\api\order\controllers\order.js
 * ecommerce-backend\.env.example
 * ecommerce-frontend\pages\products\[slug].js
@@ -70,9 +80,10 @@ Edit
 ###### 12-19-2020-0914pm
 Created orders functionality, added orders to strapi, created find and findOne endpoints, limited users to only seeing orders for their account
 
-Added
+**NEW**
 * ecommerce-backend\api\order
-Edit
+
+**EDIT**
 * ecommerce-backend\api\order\controllers\order.js
 * ecommerce-frontend\context\AuthContext.js
 * ecommerce-frontend\pages\account.js
@@ -80,69 +91,59 @@ Edit
 ###### 12-16-2020-0836pm
 Connected Magic and Strapi by installing strapi user permissions plugin and adding magic secret key in strapi dashboard
 
-Created
+**NEW**
 * ecommerce-backend/extensions/user/permissions/policies/permissions.js
-
-Edited
+* 
+**EDIT**
 * ecommerce-frontend/context/AuthContext.js
 
 ###### 12-16-2020-0745pm
-Added user authentication
+added user authentication, added user icon to header, created login and account pages
 
-Added user icon to header 
+**NEW**
+* context/AuthContext
+* public/user-icon.png
+* pages/account
+* pages/login
 
-Created login and account pages
-
-Edited in ecommerce-frontend
+**EDIT**
 * components/Header.js
 * pages/app.js
 * styles/header.module.css
 * utils/urls.js
 * package.json
 
-Created
-* context/AuthContext
-* public/user-icon.png
-* pages/account
-* pages/login
-
 ###### 12-14-2020-1028pm
-Created Header Component
+created header and footer component
 
-Created Footer Component
-
-Added Back Button to Header
-
-Edited
-* pages/_app.js
-* style/global.css
-
-Created 
+**NEW** 
 * ecommerce-frontend/components
 * ecommerce-frontend/components/Footer.js
 * ecommerce-frontend/components/Header.js
 
-###### 12-14-20-200-0900pm
-hooked front-end to back-end
+**EDIT**
+* ecommerce\ecommerce-frontend\pages\_app.js
+* ecommerce\ecommerce-frontend\styles\globals.css
 
-Edited
+###### 12-14-20-200-0900pm
+allow next.js frontend to utilize strapi backend
+
+**EDIT**
 * ecommerce-frontend/pages/product/slug.js
 * ecommerce-frontend/pages/index.js
 * ecommerce-frontend/utils/urls.js
 
 ###### 12-14-2020-0800pm
-created ecommerce back-end using strapi
+created strapi backend and next.js frontend
 * setup admin
-* setup sku
+* setup product collection
 * added products
-* rendered products.json for work with
+* rendered: ecommerce\ecommerce-frontend\products.json
 
-created ecommerce front-end using nextjs
-* edited pages/index.js
-* edited pages/styles
-* created pages/utils
-* created pages/utils/format
-* created pages/utils/urls
-
-
-
+**NEW**
+* ecommerce\ecommerce-frontend\utils\format.js
+* ecommerce\ecommerce-frontend\utils\urls.js
+* 
+**EDIT**
+* ecommerce\ecommerce-frontend\pages\index.js
+* ecommerce\ecommerce-frontend\styles

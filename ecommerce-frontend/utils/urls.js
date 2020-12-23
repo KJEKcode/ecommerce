@@ -1,8 +1,8 @@
 export const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:1337'
 
-export const MAGIC_PUBLIC_KEY = process.env.NEXT_PUBLIC_MAGIC_PUBLIC_KEY || 'YOUR MAGIC PUBLIC KEY'
+export const MAGIC_PUBLIC_KEY = process.env.NEXT_PUBLIC_MAGIC_PUBLIC_KEY || 'MAGIC KEY HERE'
 
-export const STRIPE_PK = process.env.NEXT_PUBLIC_STRIPE_PK || 'YOUR STRIPE PUBLIC KEY'
+export const STRIPE_PK = process.env.NEXT_PUBLIC_STRIPE_PK || 'STRIPE KEY HERE'
 /**
  * given an image return the URL
  * Works for local and deployed strapis
