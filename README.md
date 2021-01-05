@@ -149,4 +149,3 @@ created strapi backend and next.js frontend
 * ecommerce\ecommerce-frontend\pages\index.js
 * ecommerce\ecommerce-frontend\styles
 
-test
